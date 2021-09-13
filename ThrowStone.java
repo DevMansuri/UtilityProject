@@ -14,7 +14,12 @@
 */
 	public void run() {
 		for(int i = 0; i < 50; i++) {
+			try {
+				Thread.sleep(1000);
 				System.out.println(" Stone " + weight);
+			} catch(Exception e){
+				System.out.println("print error" + e);
+			}
 		}	
 	}
 }
