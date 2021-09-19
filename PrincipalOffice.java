@@ -1,12 +1,12 @@
 /**
 *@Author : Nadim mansuri
 *Date : 19/09/2021
-*Basic polymorphism Example.
+*Basic encapsulation and  polymorphism Example.
 **/
 class PrincipalOffice {
 	private float accaountBalance;
     public String collageName = "mist";
-    private float facultySalary;
+    private float facultySalary;   //this is encapsulation example.
     public int studentFees;
 
     public float getBalance(){
@@ -29,7 +29,7 @@ class Class2nd extends PrincipalOffice {
 	}
 
 	public static void main(String[] args) {
-		PrincipalOffice principalOffice;
+		PrincipalOffice principalOffice; // this is polynorphism example.
 		principalOffice = new Class1st();
 		principalOffice.copyCheck();
 
