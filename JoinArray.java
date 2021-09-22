@@ -1,13 +1,13 @@
 import java.io.*;
-
+/**
+*@Author : Nadim mansuri.
+*Date :22/09/2021.
+*Serializable and I/O Example.
+**/
 class JoinArray implements Serializable  {
 
 	public String fullString = "TEST";
-
-	/**
-	*	Source:
-	*/
-	public void printArray() {
+    public void printArray() {
 	 	String[] greeting = {"How", "are", "you", "nadim"};
 	    String delimiter = " ";
 	    fullString = String.join(delimiter, greeting);
