@@ -1,5 +1,9 @@
 import java.io.*;
-
+/**
+*@Author : Nadim mansuri.
+*Date : 22/09/2021.
+*class purpose : how to read file use of I/O.
+**/
  class ReadJoinArray {
  public static void main(String [] args) {
       JoinArray joinArray = null;
