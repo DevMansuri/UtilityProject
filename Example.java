@@ -73,6 +73,16 @@ class Example {
 		 System.out.println(a);
 	    }
 	    System.out.println("------------------------------------------------------"); 
+    }
+    /**
+    method purpose : how to print table of nine.
+    **/
+    public void tableOfNine() {
+        for (int a = 1 ; a < 90; a++) {
+		 a = a + 8;
+		 System.out.println(a);
+	    }
+	    System.out.println("------------------------------------------------------"); 
     }	
 }      
 
