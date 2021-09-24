@@ -44,12 +44,22 @@ class Example {
 	    }
 	    System.out.println("------------------------------------------------------"); 
     }
-     /**
+    /**
     method purpose : how to print table of six.
     **/
     public void tableOfSix() {
         for (int a = 1 ; a < 60; a++) {
 		 a = a + 5;
+		 System.out.println(a);
+	    }
+	    System.out.println("------------------------------------------------------"); 
+    }
+     /**
+    method purpose : how to print table of seven.
+    **/
+    public void tableOfSeven() {
+        for (int a = 1 ; a < 70; a++) {
+		 a = a + 6;
 		 System.out.println(a);
 	    }
 	    System.out.println("------------------------------------------------------"); 
