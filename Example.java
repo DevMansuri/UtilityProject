@@ -83,6 +83,16 @@ class Example {
 		 System.out.println(a);
 	    }
 	    System.out.println("------------------------------------------------------"); 
+    }
+    /**
+    method purpose : how to print table of Ten.
+    **/
+    public void tableOfTen() {
+        for (int a = 1 ; a < 100; a++) {
+		 a = a + 9;
+		 System.out.println(a);
+	    }
+	    System.out.println("------------------------------------------------------"); 
     }	
 }      
 
@@ -101,5 +111,7 @@ class RunTable {
 	 example.tableOfSix();
 	 example.tableOfSeven();
 	 example.tableOfEight();
+	 example.tableOfNine();
+	 example.tableOfTen();
 	}
 }
