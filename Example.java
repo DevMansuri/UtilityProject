@@ -4,17 +4,28 @@
 *purpose : how to print tables.
 **/
 class Example {
- /**
- method purpose : how to print table of two.
- **/
- public void tableOfTwo() {
+    /**
+     method purpose : how to print table of two.
+    **/
+    public void tableOfTwo() {
  	 for (int a = 1 ; a < 20; a++) {
 		 a = a + 1;
 		 System.out.println(a);
 	    }
 	    System.out.println("------------------------------------------------------"); 
-    }   
-}
+    }
+    /**
+    method purpose : how to print table of two.
+    **/
+    public void tableOfThree() {
+ 	 for (int a = 1 ; a < 30; a++) {
+		 a = a + 2;
+		 System.out.println(a);
+	    }
+	    System.out.println("------------------------------------------------------"); 
+    }
+}      
+
 /**
 *@Author : Nadim mansuri
 *Date : 24/09/2021
@@ -24,5 +35,6 @@ class RunTable {
     public static void main(String[] args) {
 	 Example example = new Example();
 	 example.tableOfTwo();
+	 example.tableOfThree();
 	}
 }
