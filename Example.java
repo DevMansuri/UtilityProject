@@ -33,6 +33,16 @@ class Example {
 		 System.out.println(a);
 	    }
 	    System.out.println("------------------------------------------------------"); 
+    }
+    /**
+    method purpose : how to print table of five.
+    **/
+    public void tableOfFive() {
+        for (int a = 1 ; a < 50; a++) {
+		 a = a + 4;
+		 System.out.println(a);
+	    }
+	    System.out.println("------------------------------------------------------"); 
     }	
 }      
 
@@ -47,5 +57,6 @@ class RunTable {
 	 example.tableOfTwo();
 	 example.tableOfThree();
 	 example.tableOfFour();
+	 example.tableOfFive();
 	}
 }
