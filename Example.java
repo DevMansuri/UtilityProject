@@ -54,12 +54,22 @@ class Example {
 	    }
 	    System.out.println("------------------------------------------------------"); 
     }
-     /**
+    /**
     method purpose : how to print table of seven.
     **/
     public void tableOfSeven() {
         for (int a = 1 ; a < 70; a++) {
 		 a = a + 6;
+		 System.out.println(a);
+	    }
+	    System.out.println("------------------------------------------------------"); 
+    }
+    /**
+    method purpose : how to print table of eight.
+    **/
+    public void tableOfEight() {
+        for (int a = 1 ; a < 80; a++) {
+		 a = a + 7;
 		 System.out.println(a);
 	    }
 	    System.out.println("------------------------------------------------------"); 
@@ -79,5 +89,7 @@ class RunTable {
 	 example.tableOfFour();
 	 example.tableOfFive();
 	 example.tableOfSix();
+	 example.tableOfSeven();
+	 example.tableOfEight();
 	}
 }
