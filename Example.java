@@ -8,22 +8,32 @@ class Example {
      method purpose : how to print table of two.
     **/
     public void tableOfTwo() {
- 	 for (int a = 1 ; a < 20; a++) {
+ 	    for (int a = 1 ; a < 20; a++) {
 		 a = a + 1;
 		 System.out.println(a);
 	    }
 	    System.out.println("------------------------------------------------------"); 
     }
     /**
-    method purpose : how to print table of two.
+    method purpose : how to print table of three.
     **/
     public void tableOfThree() {
- 	 for (int a = 1 ; a < 30; a++) {
+ 	    for (int a = 1 ; a < 30; a++) {
 		 a = a + 2;
 		 System.out.println(a);
 	    }
 	    System.out.println("------------------------------------------------------"); 
     }
+    /**
+    method purpose : how to print table of four.
+    **/
+    public void tableOfFour() {
+        for (int a = 1 ; a < 40; a++) {
+		 a = a + 3;
+		 System.out.println(a);
+	    }
+	    System.out.println("------------------------------------------------------"); 
+    }	
 }      
 
 /**
@@ -36,5 +46,6 @@ class RunTable {
 	 Example example = new Example();
 	 example.tableOfTwo();
 	 example.tableOfThree();
+	 example.tableOfFour();
 	}
 }
