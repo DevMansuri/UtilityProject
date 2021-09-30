@@ -1,0 +1,22 @@
+/**
+*@Author : Nadim mansuri.
+*Date : 30/09/2021
+*purpose : how to print pattern      *
+	                                * *
+	                               * * *
+	                              * * * *
+	                             * * * * *   
+**/
+class Pattern4 {
+	public static void main(String[] args) {
+		for (int i = 1; i <= 5; i++) {
+			for (int  j = 5 ; j>=i ; j-- ) {
+				System.out.print(" ");
+			}
+			for (int k = 1; k <= i ; k++ ) {
+				System.out.print(" *");
+			}
+		 System.out.println();
+		}
+	}
+}
