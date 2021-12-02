@@ -1,3 +1,8 @@
+/**
+Author : Nadim Mansuri
+Date 02/12/2021
+Purpose : purpose of this class How to implement Singleton Design Pattern.
+*/
 public class SingleObject {
 	private static SingleObject instance = null ;
 
@@ -16,6 +21,9 @@ public class SingleObject {
 		return instance;
 	}
 }
+/**
+Purpose : Purpose of this class Test SingleObject class. 
+*/
 class TestSingleton {
 	public static void main(String[] args) {
 		
